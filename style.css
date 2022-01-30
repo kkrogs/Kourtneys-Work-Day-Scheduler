@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color:#E7E8D1;
   }
   
   textarea {
@@ -15,7 +16,7 @@ body {
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: #A7BEAE;
     color: black;
     border-radius: 0;
     border-bottom: 10px solid black;
@@ -38,8 +39,8 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: black;
+    color: #FDFDF0;
     border-top: 1px dashed #000000;
   }
   
@@ -75,4 +76,13 @@ body {
   flex-direction: column;
   
   
+  }
+
+  .iClass {
+
+    background-color:#F6F9ED;
+  } 
+
+  button {
+    background-color: #B85042;
   }

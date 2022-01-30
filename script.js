@@ -1,48 +1,10 @@
-// ## User Story
-
-// ```md
-// AS AN employee with a busy schedule
-// I WANT to add important events to a daily planner
-// SO THAT I can manage my time effectively
-// ```
-
-// ## Acceptance Criteria
-
-// ```md
-// GIVEN I am using a daily planner to create a schedule
-// WHEN I open the planner
-// THEN the current day is displayed at the top of the calendar
-// WHEN I scroll down
-// THEN I am presented with timeblocks for standard business hours
-// WHEN I view the timeblocks for that day
-// THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-// WHEN I click into a timeblock
-// THEN I can enter an event
-// WHEN I click the save button for that timeblock
-// THEN the text for that event is saved in local storage
-// WHEN I refresh the page
-// THEN the saved events persist
-
-// top screen
-
-// the current day is displayed at the top of the calendar
-// current day is displayed at the top of the calender
 
 
-
-// use boot strap to create time blocks
-
-// Use CSS to manipulate colors
-
-// 8 rows, 3 columns would be needed for this, use flexbox
-
-//Vars at the top
-
-var comment = $(".iClass")
+var comment = $(".iClass");
 var saveBtn = $(".saving");
 
 
-
+//Displays today's date
 var today = moment();
 $("#1a").text(today.format("dddd MMM Do, YYYY"));
 
@@ -54,23 +16,28 @@ $("#1a").text(today.format("dddd MMM Do, YYYY"));
 
 
 $(".saving").on("click", function(event) {
+  //prevents button from the default of only displaying for a split second
     event.preventDefault();
+    //getting the value of the div so we can adjust them all at once to local storage
     var commentt = $(this).siblings(".iClass").val();
-   
     var inptId = $(this).siblings(".iClass").attr("id");
 
     console.log(this);
     
-    //we want the value of the div so that we can store it as tenAm for ex
+ 
     
+    //stringifying the comment so we can render it to local storage
     localStorage.setItem(inptId, JSON.stringify(commentt));
+//renders message to local storage
     renderMessage();
 
     console.log("saveBtn");
     
-    });
+
     
+    });
+    //Retrieving the commentt so that we can call the function above to display in local storage
     function renderMessage() {
       var lastComment = JSON.parse(localStorage.getItem("commentt"));
-      
+
     };
