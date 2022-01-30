@@ -9,3 +9,7 @@ After creating an activity, the user can save the activity by clicking on the re
 ![image](https://user-images.githubusercontent.com/95041311/151708976-55e8256c-241a-481e-8539-cd807c606efa.png)
 
 
+Once saved, the activity will save over to localStorage on the browser.
+
+![image](https://user-images.githubusercontent.com/95041311/151709027-6533c364-ad13-4e25-81b4-bec876754cb0.png)
+
