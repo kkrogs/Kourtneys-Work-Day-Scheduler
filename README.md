@@ -5,4 +5,7 @@ HOW IT WORKS: When the user enters the program, they are presented with a Work D
 
 ![image](https://user-images.githubusercontent.com/95041311/151708715-bd51a638-ccb8-49cd-ab44-9e17aaa0610f.png)
 
+After creating an activity, the user can save the activity by clicking on the red 'save' button next to it.
+![image](https://user-images.githubusercontent.com/95041311/151708976-55e8256c-241a-481e-8539-cd807c606efa.png)
+
 
