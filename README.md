@@ -13,6 +13,6 @@ Once saved, the activity will save over to localStorage on the browser.
 
 ![image](https://user-images.githubusercontent.com/95041311/151709027-6533c364-ad13-4e25-81b4-bec876754cb0.png)
 
-Thank you for reading and enjoy my Work Scheduler!
+Thank you for reading and enjoy my Work Day Scheduler!
 
 Kourtney Krogman
